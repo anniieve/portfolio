@@ -1,0 +1,93 @@
+/*Sivun asettelu ja määritykset*/
+body {
+	margin: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVuSans', Verdana, sans-serif;
+    background-color: lightpink;
+    font-size: 100%;
+}
+/*Sivun tausta*/
+#page {
+	background-color: lightgrey;
+	max-width: 90%;
+    margin: 0px auto;
+}
+/*Otsikon asettelu ja määritykset*/
+#header {
+    background-color: #575757;
+    color: #F0EBEB;
+    min-height: 80px;
+    font-size: 200%;
+    padding-top: 1em;
+    text-align: center;
+    letter-spacing: 0.1875em;
+    }
+
+/*menun ja footerin määritykset*/
+#nav, #footer {
+    background-color: #E49A2F;
+    color: #F7F5EE;
+    height: 1.875em;
+    text-align: center;
+   }
+
+/*Linkkien asettelu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.175em;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #0f6e2f;
+  }
+  
+  .active {
+      background-color: #04AA6D;
+  }
+
+/*sisällön asettelu*/
+#content {
+    background-color: #D8CCAF;
+    width: 100%;
+    overflow: hidden;
+    }
+
+#contentLeft {
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    width: 35%;
+    margin: 2.25em;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 20px;
+    float: left;
+}
+
+#contentRight {
+    background-color: #F7F5EE;
+    border: 1px solid #AC9675;
+    width: 35%;
+    margin: 2.25em;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 20px;
+    float: right;
+}
+/*Kuvan määritykset*/
+img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    background-color: lightpink;
+}
+#page {
+	background-color: lightgrey;
+	width: 958px;
+    height: 658px;
+    border: 1px solid green;
+    margin: 0px auto;
+}
+/*Sivun tausta*/
+#header {
+    background-color: rgb(209, 94, 209);
+    border: solid black;
+    height: 78px;
+    }
+/*Headerin pikkulaatikoiden määrittely*/
+#headerLogo, #headerCenter, #headerRight {
+    border: 1px solid yellow;
+    color: antiquewhite;
+    width: 316px;
+    height: 48px;
+    text-align: center;
+    padding-top: 28px;
+    float: left;
+    }
+/*Menu-palkin määrittely*/
+#nav {
+    background-color: rgb(229, 130, 55);
+    height: 30px;
+    width: 958px;
+    float:left;
+    text-align: center;
+    padding-top: 5px;
+}
+/*Vasen sisältöruutu*/
+#contentLeft {
+    float: left;
+    border: 1px solid rgb(229, 22, 194);
+    height: 300px;
+    width: 300px;
+    margin: 50px 5px;
+    margin-left: 50px;
+    padding: 30px;
+    border-radius: 25px;
+}
+/*Oikea sisältöruutu*/
+#contentRight {
+    float: right;
+    border: 1px solid rgb(229, 22, 194);
+    height: 300px;
+    width: 300px;
+    margin: 50px 5px;
+    margin-right:50px;
+    padding: 30px;
+    border-radius: 25px;
+}
+/*Footerin määrittely*/
+#footer {
+    float: left;
+    height: 30px;
+    width: 958px;
+    background-color: grey;
+    text-align: center;
+    margin: 28px auto;
+    padding-bottom: 21px;
+}
